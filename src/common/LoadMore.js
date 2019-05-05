@@ -3,7 +3,8 @@
 import React from "react"
 
 function LoadMore(props){
-    const {onClick, pageLimit} = props
+    const {onClick, pageLimit, theEndOfList} = props
+    if(theEndOfList)return null;
     return(
         <div className="row">
             <button className="btn btn-primary btn-lg  mx-auto col-10" 
