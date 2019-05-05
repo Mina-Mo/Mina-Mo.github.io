@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+#### Available Scripts
 
-In the project directory, you can run:
+#### In the project directory,first set the the env of REACT_APP_URL to the default Api, then you can run:
 
 ### `npm start`
 
